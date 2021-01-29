@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\shaders">
+      <UniqueIdentifier>{8890182b-93de-4270-868d-6047f58e482d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Camera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\control.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\draw.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GenericModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\load.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Model.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ParsingHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SphereModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\World.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GenericModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\load.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SphereModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\shaders\debug_quad_depth.fs">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="source\shaders\debug_quad_depth.vs">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="source\shaders\fragment-shader.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="source\shaders\generic.fs">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="source\shaders\generic.vs">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="source\shaders\generic_color.fs">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="source\shaders\generic_color.vs">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="source\shaders\generic_no_texture.fs">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="source\shaders\generic_no_texture.vs">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="source\shaders\generic_texture.fs">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="source\shaders\generic_texture.vs">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="source\shaders\lightCube.fs">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="source\shaders\lightCube.vs">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="source\shaders\shadow_mapping_depth.fs">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="source\shaders\shadow_mapping_depth.vs">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="source\shaders\SolidColor.fragmentshader">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="source\shaders\SolidColor.vertexshader">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="source\shaders\vertex-shader.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="resource\4.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="resource\7.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="resource\8.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="resource\axes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="resource\E.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="resource\E7.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="resource\grid.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="resource\ground.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="resource\I.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="resource\I4.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="resource\L.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="resource\L8.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="resource\lightCube.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="resource\N.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="resource\N4.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="resource\sphere.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="resource\Z.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="resource\Z7.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\textures\box.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resource\textures\grid-and-axes.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resource\textures\metal.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resource\textures\tile.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
